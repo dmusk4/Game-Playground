@@ -1,5 +1,8 @@
 {
-  "enabledMcpjsonServers": ["godot", "godot-alex"],
+  "enabledMcpjsonServers": [
+    "godot",
+    "godot-alex"
+  ],
   "hooks": {
     "SessionStart": [
       {
@@ -11,5 +14,16 @@
         ]
       }
     ]
+  },
+  "extraKnownMarketplaces": {
+    "godot-prompter-marketplace": {
+      "source": {
+        "source": "github",
+        "repo": "jame581/GodotPrompter"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "godot-prompter@godot-prompter-marketplace": true
   }
 }

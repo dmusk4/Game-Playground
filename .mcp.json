@@ -6,6 +6,14 @@
       "env": {
         "DEBUG": "false"
       }
+    },
+    "godot-alex": {
+      "command": "node",
+      "args": [
+        "${HOME}/.local/share/godot-mcp-alexmeckes/dist/index.js",
+        "--project",
+        "${CLAUDE_PROJECT_DIR:-.}"
+      ]
     }
   }
 }
